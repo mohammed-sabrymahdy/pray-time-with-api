@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Tajawal";
+  direction: rtl;
+  background: linear-gradient(45deg, #5a02b3, #300e51) no-repeat fixed;
+}
+#city_name {
+  font-size: 100px;
+  color: white;
+}
+.card {
+  width: 100%;
+  max-width: 15%; /* أقصى عرض للكرت */
+  min-width: 100px; /* أصغر عرض ممكن */
+  height: auto;
+  background: white;
+  font-size: 20px;
+  box-shadow: 0px 10px 5px rgb(0 0 0 /30%);
+  border: none;
+  border-radius: 10px;
+}
+.header {
+  background: linear-gradient(45deg, #5709ee, #7a37bf);
+  color: white;
+}
+
+.header h1 {
+  font-weight: 400;
+  padding: 5px;
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+option {
+  background-color: black;
+  outline: none;
+}
+/* ///////////////////////////////////////responsive */
+@media (max-width: 840px) {
+  #city_name {
+    font-size: 50px;
+  }
+  #time {
+    font-size: 25px;
+  }
+  .header h1,
+  .body h1 {
+    font-size: 18px;
+  }
+  #select {
+    width: 50px;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+  }
+  div[style*="height: 200px"] {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+}
