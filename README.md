@@ -1,2 +1,2 @@
 # it is a project which show prayer timings 
-# https://mohammed-sabrymahdy.github.io/pray-time-with-api/
+# https://curious-nougat-f1f173.netlify.app/
